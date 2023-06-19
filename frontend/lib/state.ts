@@ -1,5 +1,4 @@
 import state from "../.beaker/state.json";
-import stateLocal from "../.beaker/state.local.json";
 
 const getState = () => {
   if (!process.env.NEXT_PUBLIC_NETWORK) {
@@ -7,7 +6,6 @@ const getState = () => {
   }
   return {
     ...state,
-    ...stateLocal,
   }[process.env.NEXT_PUBLIC_NETWORK];
 };
 
