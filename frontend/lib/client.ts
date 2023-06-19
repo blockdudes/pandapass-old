@@ -7,7 +7,7 @@ export const getAddress = async () => {
     throw Error("Unable to detect Keplr");
   }
   
-  
+  const chainId = getChainId();
   const offlineSigner = window.keplr.getOfflineSigner(chainId);
   const accounts = await offlineSigner.getAccounts();
   const address = accounts[0]?.address;

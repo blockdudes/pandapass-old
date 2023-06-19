@@ -1,1 +1,7 @@
 name = "pandapass"
+
+[networks.testnet]
+chain_id = 'osmo-test-5'
+network_variant = 'Shared'
+grpc_endpoint = 'https://grpc.osmotest5.osmosis.zone'
+rpc_endpoint = 'https://rpc.osmotest5.osmosis.zone'
