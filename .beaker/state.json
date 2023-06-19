@@ -1,0 +1,13 @@
+{
+    "local": {
+      "pandapass": {
+        "code_id": 1002,
+        "addresses": {
+          "default": "osmo145ra8sh25meffjksx9naagmt8855kakvpxvyqwlpljw6hvue4leshmr3gv"
+        },
+        "proposal": {
+          "store_code": null
+        }
+      }
+    }
+  }
