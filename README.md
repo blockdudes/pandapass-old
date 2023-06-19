@@ -6,3 +6,6 @@ Pandapass allows you to pass the rights of your NFT to your Hot wallets, allowin
 
 
 [Videolink](https://www.loom.com/share/5e212404bc03421fba006c30033c8751?sid=a978eff6-46ba-447b-b7da-f79324b47395)
+
+
+it is inspired from - [delegate.cash](https://delegate.cash)
